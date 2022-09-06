@@ -1,0 +1,38 @@
+{
+  "name": "@stableswap-fi/token-list",
+  "version": "0.1.0",
+  "description": "◦ The Stableswap.fi token list",
+  "main": "build/stableswap.tokenlist.json",
+  "scripts": {
+    "test": "mocha",
+    "build": "rimraf build && mkdir -p build && node src/write.js > build/stableswap.tokenlist.json",
+    "prepublishOnly": "npm test && npm run build"
+  },
+  "files": [
+    "build/stableswap.tokenlist.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stableswap-fi/token-list.git"
+  },
+  "keywords": [
+    "stableswap-fi",
+    "stableswap",
+    "token",
+    "stablecoin",
+    "list"
+  ],
+  "author": "Mutative",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/stableswap-fi/token-list/issues"
+  },
+  "homepage": "https://github.com/stableswap-fi/token-list#readme",
+  "devDependencies": {
+    "@ethersproject/address": "^5.0.2",
+    "ajv": "^6.12.3",
+    "chai": "^4.2.0",
+    "mocha": "^8.0.1",
+    "rimraf": "^3.0.2"
+  }
+}
