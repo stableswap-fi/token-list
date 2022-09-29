@@ -84,7 +84,10 @@
     "chainId": 137,
     "logoURI": "https://assets.coingecko.com/coins/images/14149/small/cadc_2.png",
     "tags": ["stablecoin"],
-    "extensions": { "curvePool": { "0": "factory-v2-23" } }
+    "extensions": {
+      "curvePool": { "0": "factory-v2-23" },
+      "chainlinkFeed": "0xACA44ABb8B04D07D883202F99FA5E3c53ed57Fb5"
+    }
   },
   {
     "name": "PAR Stablecoin",
