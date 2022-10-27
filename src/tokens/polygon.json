@@ -1,33 +1,26 @@
 [
   {
-    "name": "Jarvis Synthetic Euro",
-    "address": "0x4e3Decbb3645551B8A19f0eA1678079FCB33fB4c",
-    "symbol": "jEUR",
+    "name": "Jarvis Synthetic Australian Dollar",
+    "address": "0xCB7F1Ef7246D1497b985f7FC45A1A31F04346133",
+    "symbol": "jAUD",
     "decimals": 18,
     "chainId": 137,
-    "logoURI": "https://raw.githubusercontent.com/stableswap-fi/assets/master/blockchains/polygon/assets/0x4e3Decbb3645551B8A19f0eA1678079FCB33fB4c/logo.png",
+    "logoURI": "https://raw.githubusercontent.com/stableswap-fi/assets/master/blockchains/polygon/assets/0xCB7F1Ef7246D1497b985f7FC45A1A31F04346133/logo.png",
     "tags": ["jsynth"],
     "extensions": {
-      "curvePool": {
-        "0": "factory-v2-37",
-        "1": "factory-v2-209",
-        "2": "factory-v2-285",
-        "3": "factory-v2-286"
-      },
-      "chainlinkFeed": "0x73366Fe0AA0Ded304479862808e02506FE556a98"
+      "chainlinkFeed": "0x062Df9C4efd2030e243ffCc398b652e8b8F95C6f"
     }
   },
   {
-    "name": "Jarvis Synthetic Singapore Dollar",
-    "address": "0xa926db7a4CC0cb1736D5ac60495ca8Eb7214B503",
-    "symbol": "jSGD",
+    "name": "Jarvis Synthetic British Pound",
+    "address": "0x767058F11800FBA6A682E73A6e79ec5eB74Fac8c",
+    "symbol": "jGBP",
     "decimals": 18,
     "chainId": 137,
-    "logoURI": "https://raw.githubusercontent.com/stableswap-fi/assets/master/blockchains/polygon/assets/0xa926db7a4CC0cb1736D5ac60495ca8Eb7214B503/logo.png",
+    "logoURI": "https://raw.githubusercontent.com/stableswap-fi/assets/master/blockchains/polygon/assets/0x767058F11800FBA6A682E73A6e79ec5eB74Fac8c/logo.png",
     "tags": ["jsynth"],
     "extensions": {
-      "curvePool": { "0": "factory-v2-22" },
-      "chainlinkFeed": "0x8CE3cAc0E6635ce04783709ca3CC4F5fc5304299"
+      "chainlinkFeed": "0x099a2540848573e94fb1Ca0Fa420b00acbBc845a"
     }
   },
   {
@@ -44,6 +37,48 @@
     }
   },
   {
+    "name": "Jarvis Synthetic Swiss Franc",
+    "address": "0xbD1463F02f61676d53fd183C2B19282BFF93D099",
+    "symbol": "jCHF",
+    "decimals": 18,
+    "chainId": 137,
+    "logoURI": "https://raw.githubusercontent.com/stableswap-fi/assets/master/blockchains/polygon/assets/0xbD1463F02f61676d53fd183C2B19282BFF93D099/logo.png",
+    "tags": ["jsynth"],
+    "extensions": {
+      "chainlinkFeed": "0xc76f762CedF0F78a439727861628E0fdfE1e70c2"
+    }
+  },
+  {
+    "name": "Jarvis Synthetic Chinese Yuan",
+    "address": "0x84526c812d8f6c4fd6c1a5b68713aff50733e772",
+    "symbol": "jCNY",
+    "decimals": 18,
+    "chainId": 137,
+    "logoURI": "https://raw.githubusercontent.com/stableswap-fi/assets/master/blockchains/polygon/assets/0x84526c812d8f6c4fd6c1a5b68713aff50733e772/logo.png",
+    "tags": ["jsynth"],
+    "extensions": {
+      "chainlinkFeed": "0x04bB437Aa63E098236FA47365f0268547f6EAB32"
+    }
+  },
+  {
+    "name": "Jarvis Synthetic Euro",
+    "address": "0x4e3decbb3645551b8a19f0ea1678079fcb33fb4c",
+    "symbol": "jEUR",
+    "decimals": 18,
+    "chainId": 137,
+    "logoURI": "https://raw.githubusercontent.com/stableswap-fi/assets/master/blockchains/polygon/assets/0x4e3decbb3645551b8a19f0ea1678079fcb33fb4c/logo.png",
+    "tags": ["jsynth"],
+    "extensions": {
+      "curvePool": {
+        "0": "factory-v2-37",
+        "1": "factory-v2-209",
+        "2": "factory-v2-285",
+        "3": "factory-v2-286"
+      },
+      "chainlinkFeed": "0x73366Fe0AA0Ded304479862808e02506FE556a98"
+    }
+  },
+  {
     "name": "Jarvis Synthetic Japanese Yen",
     "address": "0x8343091F2499FD4b6174A46D067A920a3b851FF9",
     "symbol": "jJPY",
@@ -54,6 +89,91 @@
     "extensions": {
       "curvePool": { "0": "factory-v2-85" },
       "chainlinkFeed": "0xD647a6fC9BC6402301583C91decC5989d8Bc382D"
+    }
+  },
+  {
+    "name": "Jarvis Synthetic South Korean Won",
+    "address": "0xa22f6bc96f13bcc84df36109c973d3c0505a067e",
+    "symbol": "jKRW",
+    "decimals": 18,
+    "chainId": 137,
+    "logoURI": "https://raw.githubusercontent.com/stableswap-fi/assets/master/blockchains/polygon/assets/0xa22f6bc96f13bcc84df36109c973d3c0505a067e/logo.png",
+    "tags": ["jsynth"],
+    "extensions": {
+      "chainlinkFeed": "0x24B820870F726dA9B0D83B0B28a93885061dbF50"
+    }
+  },
+  {
+    "name": "Jarvis Synthetic Mexican Peso",
+    "address": "0xbd1fe73e1f12bd2bc237de9b626f056f21f86427",
+    "symbol": "jMXN",
+    "decimals": 18,
+    "chainId": 137,
+    "logoURI": "https://raw.githubusercontent.com/stableswap-fi/assets/master/blockchains/polygon/assets/0xbd1fe73e1f12bd2bc237de9b626f056f21f86427/logo.png",
+    "tags": ["jsynth"],
+    "extensions": {
+      "chainlinkFeed": "0x171b16562EA3476F5C61d1b8dad031DbA0768545"
+    }
+  },
+  {
+    "name": "Jarvis Synthetic New Zealand Dollar",
+    "address": "0x6b526Daf03B4C47AF2bcc5860B12151823Ff70E0",
+    "symbol": "jNZD",
+    "decimals": 18,
+    "chainId": 137,
+    "logoURI": "https://raw.githubusercontent.com/stableswap-fi/assets/master/blockchains/polygon/assets/0x6b526Daf03B4C47AF2bcc5860B12151823Ff70E0/logo.png",
+    "tags": ["jsynth"],
+    "extensions": {
+      "chainlinkFeed": "0xa302a0B8a499fD0f00449df0a490DedE21105955"
+    }
+  },
+  {
+    "name": "Jarvis Synthetic Philippine Peso",
+    "address": "0x486880FB16408b47f928F472f57beC55AC6089d1",
+    "symbol": "jPHP",
+    "decimals": 18,
+    "chainId": 137,
+    "logoURI": "https://raw.githubusercontent.com/stableswap-fi/assets/master/blockchains/polygon/assets/0x486880FB16408b47f928F472f57beC55AC6089d1/logo.png",
+    "tags": ["jsynth"],
+    "extensions": {
+      "chainlinkFeed": "0x218231089Bebb2A31970c3b77E96eCfb3BA006D1"
+    }
+  },
+  {
+    "name": "Jarvis Synthetic Polish Zloty",
+    "address": "0x08e6d1f0c4877ef2993ad733fc6f1d022d0e9dbf",
+    "symbol": "jPLN",
+    "decimals": 18,
+    "chainId": 137,
+    "logoURI": "https://raw.githubusercontent.com/stableswap-fi/assets/master/blockchains/polygon/assets/0x08e6d1f0c4877ef2993ad733fc6f1d022d0e9dbf/logo.png",
+    "tags": ["jsynth"],
+    "extensions": {
+      "chainlinkFeed": "0xB34BCE11040702f71c11529D00179B2959BcE6C0"
+    }
+  },
+  {
+    "name": "Jarvis Synthetic Swedish Krona",
+    "address": "0x197e5d6ccff265ac3e303a34db360ee1429f5d1a",
+    "symbol": "jSEK",
+    "decimals": 18,
+    "chainId": 137,
+    "logoURI": "https://raw.githubusercontent.com/stableswap-fi/assets/master/blockchains/polygon/assets/0x197e5d6ccff265ac3e303a34db360ee1429f5d1a/logo.png",
+    "tags": ["jsynth"],
+    "extensions": {
+      "chainlinkFeed": "0xbd92B4919ae82be8473859295dEF0e778A626302"
+    }
+  },
+  {
+    "name": "Jarvis Synthetic Singapore Dollar",
+    "address": "0xa926db7a4cc0cb1736d5ac60495ca8eb7214b503",
+    "symbol": "jSGD",
+    "decimals": 18,
+    "chainId": 137,
+    "logoURI": "https://raw.githubusercontent.com/stableswap-fi/assets/master/blockchains/polygon/assets/0xa926db7a4cc0cb1736d5ac60495ca8eb7214b503/logo.png",
+    "tags": ["jsynth"],
+    "extensions": {
+      "curvePool": { "0": "factory-v2-22" },
+      "chainlinkFeed": "0x8CE3cAc0E6635ce04783709ca3CC4F5fc5304299"
     }
   },
   {
@@ -154,7 +274,10 @@
     "chainId": 137,
     "logoURI": "https://raw.githubusercontent.com/stableswap-fi/assets/master/blockchains/polygon/assets/0xa3Fa99A148fA48D14Ed51d610c367C61876997F1/logo.png",
     "tags": ["stablecoin", "metapool"],
-    "extensions": { "curvePool": { "0": "factory-v2-107" } }
+    "extensions": {
+      "curvePool": { "0": "factory-v2-107" },
+      "chainlinkFeed": "0xd8d483d813547CfB624b8Dc33a00F2fcbCd2D428"
+    }
   },
   {
     "name": "(PoS) Dai Stablecoin",
