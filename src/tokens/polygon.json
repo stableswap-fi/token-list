@@ -177,6 +177,18 @@
     }
   },
   {
+    "name": "Jarvis Synthetic Turkish Lira",
+    "address": "0x2A227fc77Bb2cf8f1881a04eCC8fA01EC57EC9fc",
+    "symbol": "jTRY",
+    "decimals": 18,
+    "chainId": 137,
+    "logoURI": "https://raw.githubusercontent.com/stableswap-fi/assets/master/blockchains/polygon/assets/0x2A227fc77Bb2cf8f1881a04eCC8fA01EC57EC9fc/logo.png",
+    "tags": ["jsynth"],
+    "extensions": {
+      "chainlinkFeed": "0xd78325DcA0F90F0FFe53cCeA1B02Bb12E1bf8FdB"
+    }
+  },
+  {
     "name": "agEUR",
     "address": "0xE0B52e49357Fd4DAf2c15e02058DCE6BC0057db4",
     "symbol": "agEUR",
@@ -304,5 +316,15 @@
       "curvePool": { "0": "factory-v2-107" },
       "chainlinkFeed": "0x0A6513e40db6EB1b165753AD52E80663aeA50545"
     }
+  },
+  {
+    "name": "Monerium EUR emoney",
+    "address": "0x18ec0A6E18E5bc3784fDd3a3634b31245ab704F6",
+    "symbol": "EURe",
+    "decimals": 18,
+    "chainId": 137,
+    "logoURI": "https://assets.coingecko.com/coins/images/23354/small/eur.png",
+    "tags": ["stablecoin"],
+    "extensions": { "curvePool": { "0": "factory-v2-304" } }
   }
 ]

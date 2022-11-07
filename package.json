@@ -1,6 +1,6 @@
 {
   "name": "@stableswapfi/token-list",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "◦ The Stableswap.fi token list",
   "main": "build/stableswap.tokenlist.json",
   "scripts": {
