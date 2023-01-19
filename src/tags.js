@@ -17,4 +17,16 @@ module.exports = {
     name: "Meta",
     description: "Tokens that earn interest",
   },
+  curvelp: {
+    name: "Curve Lp",
+    description: "Tokens that represents Curve.fi LP",
+  },
+  superfluid: {
+    name: "Superfluid",
+    description: "Superfluid Tokens",
+  },
+  stakedao: {
+    name: "Stake DAO Vaults tokens",
+    description: "Stake DAO vaults shares",
+  },
 };

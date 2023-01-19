@@ -24,6 +24,18 @@
     }
   },
   {
+    "name": "Jarvis Synthetic Brazilian Real",
+    "address": "0xf2f77FE7b8e66571E0fca7104c4d670BF1C8d722",
+    "symbol": "jBRL",
+    "decimals": 18,
+    "chainId": 137,
+    "logoURI": "https://raw.githubusercontent.com/stableswap-fi/assets/master/blockchains/polygon/assets/0xf2f77FE7b8e66571E0fca7104c4d670BF1C8d722/logo.png",
+    "tags": ["jsynth"],
+    "extensions": {
+      "chainlinkFeed": "0xB90DA3ff54C3ED09115abf6FbA0Ff4645586af2c"
+    }
+  },
+  {
     "name": "Jarvis Synthetic Canadian Dollar",
     "address": "0x8ca194A3b22077359b5732DE53373D4afC11DeE3",
     "symbol": "jCAD",
@@ -210,6 +222,18 @@
     "extensions": { "curvePool": { "0": "factory-v2-37" } }
   },
   {
+    "name": "BRZ",
+    "address": "0x491a4eB4f1FC3BfF8E1d2FC856a6A46663aD556f",
+    "symbol": "BRZ",
+    "decimals": 4,
+    "chainId": 137,
+    "logoURI": "https://raw.githubusercontent.com/stableswap-fi/assets/master/blockchains/polygon/assets/0x491a4eB4f1FC3BfF8E1d2FC856a6A46663aD556f/logo.png",
+    "tags": ["stablecoin"],
+    "extensions": {
+      "chainlinkFeed": "0xB90DA3ff54C3ED09115abf6FbA0Ff4645586af2c"
+    }
+  },
+  {
     "name": "CAD Coin (PoS)",
     "address": "0x5d146d8B1dACb1EBBA5cb005ae1059DA8a1FbF57",
     "symbol": "CADC",
@@ -327,5 +351,110 @@
     "logoURI": "https://assets.coingecko.com/coins/images/23354/small/eur.png",
     "tags": ["stablecoin"],
     "extensions": { "curvePool": { "0": "factory-v2-304" } }
+  },
+  {
+    "name": "Super USDC (PoS)",
+    "address": "0xCAa7349CEA390F89641fe306D93591f87595dc1F",
+    "symbol": "USDCx",
+    "decimals": 18,
+    "chainId": 137,
+    "logoURI": "https://raw.githubusercontent.com/stableswap-fi/assets/master/blockchains/polygon/assets/0xCAa7349CEA390F89641fe306D93591f87595dc1F/logo.png",
+    "tags": ["superfluid"],
+    "extensions": {
+      "underlying": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+      "chainlinkFeed": "0xfE4A8cc5b5B2366C1B58Bea3858e81843581b2F7"
+    }
+  },
+  {
+    "name": "Super DAI (PoS)",
+    "address": "0x1305F6B6Df9Dc47159D12Eb7aC2804d4A33173c2",
+    "symbol": "DAIx",
+    "decimals": 18,
+    "chainId": 137,
+    "logoURI": "https://raw.githubusercontent.com/stableswap-fi/assets/master/blockchains/polygon/assets/0x1305F6B6Df9Dc47159D12Eb7aC2804d4A33173c2/logo.png",
+    "tags": ["superfluid"],
+    "extensions": {
+      "underlying": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
+      "chainlinkFeed": "0x4746DeC9e833A82EC7C2C1356372CcF2cfcD2F3D"
+    }
+  },
+  {
+    "name": "Super USDT",
+    "address": "0x25d9B2EE0AeA95a12F97A5AD3EC15BBeD3d0d4ef",
+    "symbol": "USDTx",
+    "decimals": 18,
+    "chainId": 137,
+    "logoURI": "https://raw.githubusercontent.com/stableswap-fi/assets/master/blockchains/polygon/assets/0x25d9B2EE0AeA95a12F97A5AD3EC15BBeD3d0d4ef/logo.png",
+    "tags": ["superfluid"],
+    "extensions": {
+      "underlying": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+      "chainlinkFeed": "0x0A6513e40db6EB1b165753AD52E80663aeA50545"
+    }
+  },
+  {
+    "name": "Super jEUR",
+    "address": "0x4bDe23854e7C81218463f6C8f331b46144E98eaC",
+    "symbol": "jEURx",
+    "decimals": 18,
+    "chainId": 137,
+    "logoURI": "https://raw.githubusercontent.com/stableswap-fi/assets/master/blockchains/polygon/assets/0x4bDe23854e7C81218463f6C8f331b46144E98eaC/logo.png",
+    "tags": ["superfluid"],
+    "extensions": {
+      "underlying": "0x4e3Decbb3645551B8A19f0eA1678079FCB33fB4c",
+      "chainlinkFeed": "0x73366Fe0AA0Ded304479862808e02506FE556a98"
+    }
+  },
+  {
+    "name": "Super jCHF",
+    "address": "0xE2d04ab74eed9627c828B3fc10e5fC96FAE70348",
+    "symbol": "jCHFx",
+    "decimals": 18,
+    "chainId": 137,
+    "logoURI": "https://raw.githubusercontent.com/stableswap-fi/assets/master/blockchains/polygon/assets/0xE2d04ab74eed9627c828B3fc10e5fC96FAE70348/logo.png",
+    "tags": ["superfluid"],
+    "extensions": {
+      "underlying": "0xbD1463F02f61676d53fd183C2B19282BFF93D099",
+      "chainlinkFeed": "0xc76f762CedF0F78a439727861628E0fdfE1e70c2"
+    }
+  },
+  {
+    "name": "Curve.fi amDAI/amUSDC/amUSDT",
+    "address": "0xE7a24EF0C5e95Ffb0f6684b813A78F2a3AD7D171",
+    "symbol": "am3CRV",
+    "decimals": 18,
+    "chainId": 137,
+    "logoURI": "https://raw.githubusercontent.com/stableswap-fi/assets/master/blockchains/polygon/assets/0xE7a24EF0C5e95Ffb0f6684b813A78F2a3AD7D171/logo.png",
+    "tags": ["curvelp"],
+    "extensions": {
+      "lpTokens": {
+        "0": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
+        "1": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+        "2": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+      }
+    }
+  },
+  {
+    "name": "stake dao Curve.fi amDAI/amUSDC/amUSDT",
+    "address": "0x7d60F21072b585351dFd5E8b17109458D97ec120",
+    "symbol": "sdam3CRV",
+    "decimals": 18,
+    "chainId": 137,
+    "logoURI": "https://raw.githubusercontent.com/stableswap-fi/assets/master/blockchains/polygon/assets/0x7d60F21072b585351dFd5E8b17109458D97ec120/logo.png",
+    "tags": ["stakedao"],
+    "extensions": {
+      "underlying": "0xE7a24EF0C5e95Ffb0f6684b813A78F2a3AD7D171"
+    }
+  },
+  {
+    "name": "Super stake dao Curve.fi amDAI/amUSDC/amUSDT",
+    "address": "0x8ef4F0C0753048a39B4Bc4eB3f545Fdae00618B7",
+    "symbol": "sdam3CRVx",
+    "decimals": 18,
+    "chainId": 137,
+    "logoURI": "https://raw.githubusercontent.com/stableswap-fi/assets/master/blockchains/polygon/assets/0x8ef4F0C0753048a39B4Bc4eB3f545Fdae00618B7/logo.png",
+    "tags": ["superfluid"],
+    "extensions": {
+      "underlying": "0x7d60F21072b585351dFd5E8b17109458D97ec120"
+    }
   }
 ]
